@@ -11,8 +11,6 @@ function App() {
       <NavBar></NavBar>
       <Hero></Hero>
       
-      <Hero></Hero>
-      
     </div>
   )
 }
