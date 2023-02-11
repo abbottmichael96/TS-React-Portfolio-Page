@@ -1,5 +1,4 @@
 import { NavBar } from "./Components/NavBar";
-import { Background } from "./Components/Background";
 import { Hero } from "./Components/Hero";
 import { About } from "./Components/About";
 
@@ -9,10 +8,10 @@ function App() {
 
   return (
     <div className="App">
-      {/* <Background></Background> */}
       <NavBar></NavBar>
       <Hero></Hero>
-
+      
+      <Hero></Hero>
       
     </div>
   )
