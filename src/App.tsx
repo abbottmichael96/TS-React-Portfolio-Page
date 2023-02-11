@@ -9,7 +9,7 @@ function App() {
 
   return (
     <div className="App">
-      <Background></Background>
+      {/* <Background></Background> */}
       <NavBar></NavBar>
       <Hero></Hero>
 
