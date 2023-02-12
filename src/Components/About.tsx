@@ -1,15 +1,9 @@
-import { forwardRef } from "react";
-
 export function About() {
 
 
-    return (
+    return ( 
         <>
-        <div class="sticky">hi!</div>
-        <div>hi!</div>
-        <div>hi!</div>
-        <div>hi!</div>
-        <div>hi!</div>
+        <div className="bg-stone-600 h-screen flex items-center justify-center overflow-hidden w-auto"></div>
         </>
     )
 }

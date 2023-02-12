@@ -1,6 +1,5 @@
 import { useState } from "react";
 
-
 export function Hero() {
 
     const text = ["Hi!", "Hey!","Yo!"];
@@ -19,7 +18,7 @@ export function Hero() {
     const [nav, setNav] = useState(["About", "Portfolio", "Contact"])
 
     return(
-        <main className="h-screen w-screen relative flex items-center justify-center bg-stone-700">
+        <main className="h-screen w-auto relative flex items-center justify-center bg-stone-700 overflow-hidden">
             <section className="bg-stone-600 md:w-8/12 sm:w-11/12 lg:w-7/12 w-screen sm:rounded-lg shadow h-3/4 xl:h-3/4 sm:flex justify-center -mt-36 sm:mt-0">
                     <div className="flex flex-row flex-wrap sm:space-x-12 sm:items-center sm:justify-items-centre">
                         <img className="rounded-full md:h-28 h-24 sm:-ml-12 my-10 ml-6 xl:-24 -mb-18 justify-center items-center sm:-mr-20" src='src/assets/mike.png' alt="Mike"></img>
@@ -41,7 +40,6 @@ export function Hero() {
                         </div>
                     </div>
             </section>
-        </main>
-                
+        </main>  
     )
 }
