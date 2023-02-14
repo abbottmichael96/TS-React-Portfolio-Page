@@ -3,11 +3,9 @@ import { Hero } from "./Components/Hero";
 import { About } from "./Components/About";
 import { Squiggle } from "./Components/Squiggle";
 
-import './App.css'
-
+import "./App.css";
 
 function App() {
-
   return (
     <div className="App">
       <NavBar></NavBar>
@@ -15,7 +13,7 @@ function App() {
       <Squiggle></Squiggle>
       <About></About>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
