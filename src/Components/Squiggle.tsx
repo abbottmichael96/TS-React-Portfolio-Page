@@ -1,9 +1,9 @@
 export function Squiggle() {
   return (
     <>
-      <section className="bg-stone-600 h-96 -z-10">
+      <section className="bg-stone-600 h-1/3 -z-10">
         <svg
-          className="z-0 -mb-96"
+          className="z-10"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 1440 320"
         >
